@@ -79,6 +79,7 @@
   
   .service-details .card-text {
     color: #5e5e5e;
+    font-size: 17px;
   }
   
   .service-details .read-more a {
@@ -90,7 +91,7 @@
   }
   
   .service-details .read-more a:hover {
-    color: #fec010;
+    color: #0d6efd;
   }
   
   .service-details .card:hover img {
@@ -98,13 +99,17 @@
   }
   
   .service-details .card:hover .card-body {
-    border-color: #fec010;
+    border-color: #0d6efd;
   }
   
   .service-details .card:hover .card-body .card-title a {
-    color: #fec010;
+    color: #0d6efd;
   }
   
+  .Desinged{
+    padding-left: 29px;
+    font-size: 15px;
+  }
 
   
 
@@ -148,7 +153,9 @@ margin: 0px 350px;
 
 
 
-
+.description{
+  font-size: 16px !important;
+}
 
 
 
@@ -174,3 +181,48 @@ margin: 0px 350px;
 
 
 
+@media (min-width: 576px) and (max-width: 992px){ 
+  .whyLeading{
+    font-size: 69px !important;
+  }
+ }
+
+ @media (min-width: 576px) and (max-width: 768px){ 
+  
+  .Desinged{
+    padding-left: 29px;
+    font-size: 19px !important;
+  }
+
+ }
+
+ @media (min-width: 768px) and (max-width: 992px){ 
+  
+  .Desinged{
+    padding-left: 29px;
+    font-size: 17px !important;
+  }
+
+ }
+
+  @media (min-width: 992px)  { 
+    .Desinged{
+      padding-left: 29px;
+      font-size: 20px !important;
+    }
+  .whyLeading{
+    font-size: 90px !important;
+  }
+
+  /* .Desinged{
+    padding-left: 29px;
+    font-size: 19px;
+  } */
+ }
+ 
+
+ @media (max-width: 576px) { 
+  .whyLeading{
+    font-size: 60px;
+  }
+ } 
