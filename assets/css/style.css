@@ -437,7 +437,7 @@ section {
   margin-bottom: 30px;
 }
 .section-header h2 {
-  font-size: 32px;
+  font-size: 45px;
   color: #1a4891;
   text-transform: uppercase;
   font-weight: 700;
@@ -534,10 +534,12 @@ section {
   font-family: "Raleway", sans-serif;
 }
 #about .content h3 {
-  color: #555;
+  color: rgba(0, 0, 0, 0.8);
   font-weight: 300;
-  font-size: 18px;
+  line-height: 40px !important;
+  font-size: 21px;
   line-height: 26px;
+  font-weight: 500;
   /* font-style: italic;  */
 }
 #about .content p {
@@ -805,6 +807,7 @@ section {
   margin: 30px 15px;
   text-align: left;
   min-height: 280px;
+  background-color: white;
   box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.08);
 }
 @media (max-width: 767px) {
@@ -828,6 +831,7 @@ section {
   font-size: 14px;
   color: #999;
   margin: 0;
+  font-weight: bold;
 }
 #testimonials .testimonial-item .quote-sign-left {
   margin-top: -15px;
