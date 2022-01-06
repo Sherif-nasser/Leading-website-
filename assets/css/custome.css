@@ -22,6 +22,8 @@
 }
 
 
+
+
 /*sherif part ends*/
 
 
@@ -226,3 +228,18 @@ margin: 0px 350px;
     font-size: 60px;
   }
  } 
+
+
+
+
+ /* tahoun edits 6-1  */
+
+ .service-details .card-text {
+
+  font-size: 20px;
+ }
+
+ .service-details .read-more a {
+   font-size: 16px;
+   font-weight: bold;
+ }
