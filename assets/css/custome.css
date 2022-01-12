@@ -159,6 +159,7 @@ margin: 0px 350px;
   text-align: center;
   background-color: #fec010;
   padding: 0px;
+  color: #fff !important;
 }
 
 .navbar a, .navbar a:focus {
@@ -168,22 +169,26 @@ margin: 0px 350px;
 
 
 .description{
-  font-size: 16px !important;
+  font-size: 17px !important;
 }
 
 
 
+#contact {
 
+  background-color: #1a4891;
+  color: white;
+}
 
 /* jan edits  */
 
 #contact .contact-info i {
-  color:#0e76a8  !important;
+  color:#fff  !important;
 }
 
 
 #contact .contact-info h3 {
-  color: #1e4356;
+  color: #fff;
 }
 
 #testimonials .testimonial-item h3 {
@@ -201,7 +206,6 @@ margin: 0px 350px;
 .imgModels{
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-
 
 
 
@@ -238,6 +242,7 @@ margin: 0px 350px;
     }
   .whyLeading{
     font-size: 90px !important;
+    text-align: center;
   }
 
   /* .Desinged{
